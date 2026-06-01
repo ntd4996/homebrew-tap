@@ -1,6 +1,6 @@
 cask "agentpet" do
-  version "0.1.0"
-  sha256 "c1469d884f51eb0b70059a832aee4e5458cd4d8954431efdb2a1d93205715388"
+  version "0.1.1"
+  sha256 "b5d1fda3cd438f1734ec23f1a1036fcce0e7bb138e9836331f8c6ebbd717ed05"
 
   url "https://github.com/ntd4996/agentpet/releases/download/v#{version}/AgentPet-#{version}.dmg"
   name "AgentPet"
@@ -11,7 +11,7 @@ cask "agentpet" do
 
   caveats <<~EOS
     AgentPet is signed with a Developer ID but this build is not yet notarized.
-    If macOS blocks the first launch, remove the quarantine flag once:
+    On first launch, right-click AgentPet in /Applications and choose Open, or run:
       xattr -dr com.apple.quarantine "/Applications/AgentPet.app"
     A fully notarized build (no warning) is on the way.
   EOS
