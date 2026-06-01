@@ -11,10 +11,8 @@ cask "agentpet" do
 
   caveats <<~EOS
     AgentPet is signed with a Developer ID but this build is not yet notarized.
-    If macOS blocks the first launch, either install with:
-      brew install --cask --no-quarantine ntd4996/tap/agentpet
-    or remove the quarantine flag after installing:
+    If macOS blocks the first launch, remove the quarantine flag once:
       xattr -dr com.apple.quarantine "/Applications/AgentPet.app"
-    A fully notarized build is on the way.
+    A fully notarized build (no warning) is on the way.
   EOS
 end
