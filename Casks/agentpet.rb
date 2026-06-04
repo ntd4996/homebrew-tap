@@ -5,7 +5,7 @@ cask "agentpet" do
   url "https://github.com/ntd4996/agentpet/releases/download/v#{version}/AgentPet-#{version}.dmg"
   name "AgentPet"
   desc "Menu bar app with a desktop pet that monitors your AI coding agents"
-  homepage "https://github.com/ntd4996/agentpet"
+  homepage "https://agentpet.thenightwatcher.online"
 
   auto_updates true
 
