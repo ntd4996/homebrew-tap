@@ -1,8 +1,20 @@
 # homebrew-tap
 
-Homebrew tap for [AgentPet](https://github.com/ntd4996/agentpet) and other apps by [@ntd4996](https://github.com/ntd4996).
+Homebrew tap for apps by [@ntd4996](https://github.com/ntd4996).
 
-## Install AgentPet
+## Porthole
+
+Menu bar app showing which dev ports are running, which project owns each, and which tunnels point where.
+
+```bash
+brew install --cask ntd4996/tap/porthole
+```
+
+Signed with a Developer ID and notarized by Apple, no Gatekeeper workaround needed.
+
+## AgentPet
+
+Menu bar app with a desktop pet that monitors your AI coding agents.
 
 ```bash
 brew install --cask ntd4996/tap/agentpet
