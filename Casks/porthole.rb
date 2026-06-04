@@ -1,6 +1,6 @@
 cask "porthole" do
-  version "0.1.0"
-  sha256 "9d840ae5c817c3c91fbe07a64d02e0efea201d8fba03d0dfba7bdd9aa9871744"
+  version "0.1.1"
+  sha256 "286efa528b6507c07748647111dfdfc8ec3b8e867f0908c052c0ac7ce484d9bc"
 
   url "https://github.com/ntd4996/Porthole/releases/download/v#{version}/Porthole-#{version}.dmg"
   name "Porthole"
