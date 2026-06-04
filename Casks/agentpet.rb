@@ -1,6 +1,6 @@
 cask "agentpet" do
-  version "1.1.2"
-  sha256 "800b42d8c9ea692e90a93849165c716bda812cb6d800f1f39af7a482303a69ab"
+  version "1.1.3"
+  sha256 "3ce9dd974bf332ab6632f7eca870e8e7c0f389a104c5c84261549111a0fe5c74"
 
   url "https://github.com/ntd4996/agentpet/releases/download/v#{version}/AgentPet-#{version}.dmg"
   name "AgentPet"
