@@ -1,6 +1,6 @@
 cask "agentpet" do
-  version "1.17.0"
-  sha256 "0edc231037a48a3e26c64962d0d7ff5ef1e948e1d7b78b994377d25b1a577bd1"
+  version "1.17.1"
+  sha256 "c014e392de54321a8dcc8a938d0996dd34c3c73a0965f530253461dfe37cf64f"
 
   url "https://github.com/ntd4996/agentpet/releases/download/v#{version}/AgentPet-#{version}.dmg",
       verified: "github.com/ntd4996/agentpet/"
